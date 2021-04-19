@@ -1,0 +1,287 @@
+body html{
+	max-width: 100%;
+    overflow-x: hidden;
+	padding: 0; 
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+  	font-family: 'Rambla', sans-serif;
+  	color:000;
+  	font size: 16px;
+  	height: 100%;
+ }
+h1, h2, h3, h4, h5, h6	{
+	padding: 0;
+	margin: 0;
+}
+p{
+	font size: 16px;
+}
+ul, li{
+	display: block;
+}
+body{
+	 display:flex; 
+ 	 flex-direction:column; 
+	  margin: 0;		
+	  overflow-x: hidden;
+}
+header.header{
+background: url(../img/background.jpg) no-repeat center top /cover;
+}
+
+.container{
+	width: 100%;
+	margin: -16px 0px;
+}	
+header a{
+	color: #003044;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;	
+}
+.menu li a{
+	font-size: 52px;
+	text-decoration: none;
+	
+}
+.menu li{
+	font-size: 70px;
+	font-style: bold;
+	margin-right: 70px;
+
+}
+h1{
+	font-family: 'Raleway',sans-serif;
+	font-size: 70px;
+	font-style: bold;
+	margin-right: 4%;
+	margin-left: -0.5%;
+	color: #002D72;
+		text-decoration: none;
+}
+.menu h2{
+	font-size: 40px;
+	color: #0000;
+}
+.asd{
+	background-color: rgba(82, 133, 133, 0.58);	
+}
+h2{
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+opacity: 89%;
+line-height: 64px;
+color: #273B61;
+margin-top: 8%;
+margin-left: 4%;
+}
+h3{
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 49px;
+
+}
+.qwe{
+background-color: rgba(51, 51, 50, 0.87);
+width: 100%;
+height: 100px;
+margin-top: 35%;	
+display: flex;
+font-size: 18px;
+align-items: center;
+justify-content: center;
+align-items: center;
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+
+.menub{
+	display: flex;	
+}
+.menub a{  
+	text-decoration: none;
+	color: #98B9C7;	
+}
+.qwe li{
+
+	display: flex;
+	margin-right: 130px;	
+}
+.qwe img{
+	display: flex;
+	margin-left: -24%;
+	margin-top: -1.7%;	
+}
+.qwer{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 3%;
+margin-left: 5%;
+width: 286.9px;
+height: 113px;
+background-color: rgba(28, 38, 41, 0.78);
+border-radius: 18px;
+
+
+}
+.qwer li a{
+	display: flex;
+	color: #0A7E98;
+	text-decoration: none;
+}
+
+.qwer:hover{
+	background-color: #D4F1FD;
+	opacity: 0.78;
+	transition: all 0.3s ease;
+}
+.asd li ul{
+	margin-left: -50px;
+	position: absolute;
+	min-width: 300px;
+	display: none;
+	font-size: 10px;
+z-index: 10;
+}
+.asd li>ul li{
+	border: 1px solid #c7c8ca;	
+	background-color: #D4F1FD;	
+	opacity: 0.85;
+	
+}
+.asd li:hover>ul{
+display: block;
+
+}
+
+h4{
+margin-left: 3px;
+font-size: 30px; 
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+color: #003044;	
+}
+
+h5{
+
+font-family: 'Rambla',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+text-decoration: none;
+color: #003044;
+}
+h1 a{
+	font-family: 'Raleway',sans-serif;
+	font-size: 70px;
+	font-style: bold;
+	margin-right: 4%;
+	margin-left: -0.5%;
+	color: #002D72;
+	text-decoration: none;
+}
+h6{
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 62px;
+line-height: 64px;
+color: #D4F1FD;
+margin-left: 2%;
+}
+.news li a{
+display: flex;
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 64px;
+color: #D4F1FD;
+margin-bottom: 10%;
+text-decoration: none
+}
+.news{
+	width: 40%	
+}
+.qsd{
+	display: flex;
+	margin-left: 120%;
+	margin-top: -42%;
+	width: 500px;
+	height: 305px;
+	margin-bottom: 5%;
+}
+header.header1{
+	
+}
+section .container{
+
+}
+section.section1{
+display: flex;
+
+justify-content: space-around;
+background: url(../img/join_b.jpg) no-repeat center top /cover;
+}
+section.section1 li{
+	font-size: 400%;
+	color: #96f7f5;
+
+}
+section.section1 div{
+background-color: #197776;	
+font-family: 'Rambla', sans-serif;
+font-style: normal;
+font-weight: normal;
+border-radius: 10px;
+opacity: 0.8;
+margin-top: 1%;
+margin-bottom: 20%;
+	
+}
+section.section1 ul{
+margin: 0px 0px;
+padding: 0px 10px;
+	
+}
+div.free{
+	border: 1px solid #c7c8ca;	
+
+}
+div.free ul li{	
+	
+}
+div.basic{
+	border: 1px solid #c7c8ca;	
+}
+div.basic ul li{
+}
+div.advanced{
+	border: 1px solid #c7c8ca;		
+}
+div.advanced li.lih{
+
+}
+section.section1 li.lih{	
+	font-size: 800%;
+}
+section.section1 a{
+	text-decoration: none;
+	color: #c7c8ca;
+}
+section img{
+	height: 50px;
+	width: 50px;
+}
+div.bot{
+	height: 100%;
+}
